@@ -18,6 +18,7 @@ SPDX-License-Identifier: MIT OR Apache-2.0
         <a href="https://spdx.org/licenses"><img alt="license badge" src="https://img.shields.io/badge/📝_License-MIT OR Apache--2.0-4CAF50.svg"/></a>
         <a href="https://github.com/whiteprints-tests/test-gh-rtd-mit-or-apache-2-0-windows-39/discussions"><img alt="GitHub Discussions" src="https://img.shields.io/github/discussions/whiteprints-tests/test-gh-rtd-mit-or-apache-2-0-windows-39.svg?logo=GitHub"></a>
         <a href="https://api.reuse.software/info/github.com/whiteprints-tests/test-gh-rtd-mit-or-apache-2-0-windows-39"><img alt="REUSE status" src="https://api.reuse.software/badge/github.com/whiteprints-tests/test-gh-rtd-mit-or-apache-2-0-windows-39"/></a>
+        <a href='https://readthedocs.org/projects/test-gh-rtd-mit-or-apache-2-0-windows-39/'><img src='https://readthedocs.org/projects/test-gh-rtd-mit-or-apache-2-0-windows-39/badge/?version=latest' alt='Documentation Status' /></a>
         <a href="https://www.contributor-covenant.org/version/2/1/code_of_conduct/"><img alt="contributor covenant badge" src="https://img.shields.io/badge/Contributor_Covenant-2.1-4BAAAA.svg?logo=contributorcovenant"/></a>
     </p>
 </div>
@@ -38,6 +39,10 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 ## Highlights
 
 ...
+
+## Documentation
+
+See: https://test-gh-rtd-mit-or-apache-2-0-windows-39.readthedocs.io/en/stable/.
 
 ## Install
 

@@ -6,6 +6,7 @@
 
 # pylint: disable=invalid-name
 
+import os
 from importlib import metadata
 from pathlib import Path
 
@@ -53,9 +54,19 @@ html_favicon = "_static/logo.svg"
 html_logo = "_static/logo.svg"
 html_static_path = ["_static"]
 html_extra_path = []
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
+html_js_files = [
+    "readthedocs.js",
+]
 html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "icon_links": [
+        {
+            "name": "ReadTheDocs",
+            "url": "https://readthedocs.org/projects/test-gh-rtd-mit-or-apache-2-0-windows-39",
+            "icon": "fa-solid fa-book",
+            "type": "fontawesome",
+        },
         {
             "name": "GitHub",
             "url": (
@@ -103,4 +114,6 @@ myst_substitutions = {
 exclude_patterns = [
     "_autoapi_templates/**",
 ]
-linkcheck_ignore = []
+linkcheck_ignore = [
+    r"https://.*\.readthedocs\.io/en/stable/",
+]
