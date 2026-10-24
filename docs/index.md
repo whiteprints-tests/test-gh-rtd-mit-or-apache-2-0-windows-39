@@ -18,5 +18,6 @@ Home <self>
 Guide <guide>
 Reference <autoapi/index>
 Licensing <licensing_index>
+Releases <https://github.com/whiteprints-tests/test-gh-rtd-mit-or-apache-2-0-windows-39/releases>
 Contributing <contributing_index>
 ```
